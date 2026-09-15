@@ -1,0 +1,52 @@
+/* App background */
+        .main {
+            background-color: #F8F9FA;
+        }
+
+        /* Global text */
+        body {
+            color: #212529;
+        }
+
+        /* Buttons */
+        .stButton > button {
+            border-radius: 10px;
+            color: #FFFFFF;
+            background-color: #0D6EFD;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-weight: 500;
+        }
+
+        .stButton > button:hover {
+            background-color: #0B5ED7;
+        }
+
+        /* Expander */
+        [data-testid="stExpander"] {
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            border: 1px solid #DEE2E6;
+            padding: 8px;
+        }
+
+        [data-testid="stExpander"] summary {
+            color: #0D6EFD;
+            font-weight: 600;
+        }
+
+        /* Document box */
+        .doc-box {
+            background-color: #FFFFFF;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border-left: 4px solid #198754;
+            font-size: 14px;
+            color: #212529;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+
+        .doc-box:hover {
+            background-color: #F1F3F5;
+        }

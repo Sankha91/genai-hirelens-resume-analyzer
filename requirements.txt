@@ -1,0 +1,16 @@
+langchain
+langchain-community # RAG
+pypdf
+chromadb
+tiktoken
+langchain-text-splitters
+
+langchain-openai
+langchain-chroma
+langchain-google-genai
+
+numpy
+scikit-learn
+streamlit
+
+python-dotenv

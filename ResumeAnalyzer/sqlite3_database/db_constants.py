@@ -1,0 +1,6 @@
+
+class DBConstants:
+    BEGIN_TRANSACTION = "BEGIN"
+    EMAIL_ERROR = -12
+    PHONE_ERROR = -23
+    OTHER_ERROR = -1
