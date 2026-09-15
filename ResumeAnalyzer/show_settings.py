@@ -254,6 +254,31 @@ def show_settings(resume_repo: ResumeRepository, jd_repo: JDRepository, result_r
 
     st.divider()
 
+    # ---------------------------------------------------------
+    # Disclaimer
+    # ---------------------------------------------------------
+
+    with st.expander("📌 **IMPORTANT: About this application (HireLens)**"): 
+        st.markdown("""
+        **HireLens** is a personal **GenAI learning project** created to explore LLMs, RAG, vector databases, prompt engineering, and AI-powered applications. 
+        
+        ⚠️ **API Usage Notice**:
+        This application uses a shared API resource with limited usage/quota. The available tokens may be exhausted at any time, especially with frequent or unnecessary usage. 
+        Please use the application responsibly and avoid repeated or unnecessary requests. 
+
+        🔒 **Privacy & Data**: 
+        Please DO NOT upload confidential, sensitive, or personally identifiable information. 
+        Avoid uploading real candidate resumes containing sensitive personal information. This application is intended primarily for demonstration and learning purposes and should not be considered a production recruitment system. 
+        
+        🤖 **AI-Generated Results**: 
+        The analysis, matching scores, recommendations, skill-gap analysis, and interview questions are AI-generated and may not always be accurate. They should be treated as supporting information rather than a final hiring decision. 
+     
+        💡 **Suggestions & Collaboration**:
+        I'm continuously improving HireLens as part of my GenAI learning journey. For suggestions, feedback, collaboration, or discussions, feel free to reach out: 
+        📧 **ghoshsankha1@gmail.com** 
+        Thank you for exploring **HireLens** and helping me learn and improve! 🚀 """)
+
+    st.divider()
 
     # =========================================================
     # DANGER ZONE
